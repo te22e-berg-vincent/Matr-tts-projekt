@@ -57,11 +57,13 @@ padding-top: 10px;
     grid-row: 5/6;
     border: 2px solid black;
     border-radius: 5px;
-    margin-bottom:  2px;
+    margin-bottom:  5px;
+
 }
 
 .ingrediens_lista
 {
+    
     grid-column: 1/2;
     grid-row: 7/10;
     border: 2px solid black;
@@ -95,6 +97,15 @@ align-items: center;
 {
 grid-column: 3/8;
 grid-row: 8/9;
-border: 1.5px solid black;
+border: 2px solid black;
 margin-bottom: 2px;
+}
+
+.recept
+{
+  
+    grid-column: 3/8;
+    grid-row: 9/10;
+    border: 2px solid black;
+    border-radius: 3px;
 }
