@@ -8,7 +8,7 @@ grid-template-rows: 1fr 1fr 2fr 1fr 1fr 1fr 1fr 3fr 1fr;
 
 body
 {
-    background-color: bisque;
+    background-color: rgb(255, 225, 181);
     display: flex;
     flex-direction: row;
     
@@ -19,6 +19,9 @@ header
     grid-column: 1/4;
     grid-row: 1/2;
     border: 2px solid black;
+    background-color: bisque ;
+    padding-top: 10px;
+    border-radius: 65px;
 }
 
 h1
@@ -33,6 +36,7 @@ padding-top: 10px;
     grid-row: 3/4;
     border: 2px solid black;
     border-radius: 5px;
+    background-color: bisque ;
 }
 
 .bild1
@@ -61,6 +65,7 @@ padding-top: 10px;
     margin-bottom:  5px;
     padding-top: 30px;
     text-align: center;
+    background-color: bisque ;
 }
 
 .ingrediens_lista
@@ -71,6 +76,7 @@ padding-top: 10px;
     border: 2px solid black;
     border-radius: 5px;
     padding-left: 6px;
+    background-color: bisque ;
 }
 
 
@@ -103,10 +109,12 @@ gap: 60px;
 
 .recept_rub
 {
+    padding-top: 15px;
 grid-column: 3/8;
 grid-row: 7/8;
 border: 2px solid black;
-margin-bottom: 2px;
+margin-bottom: 3px;
+background-color: bisque ;
 }
 
 .recept
@@ -116,4 +124,24 @@ margin-bottom: 2px;
     grid-row: 8/9;
     border: 2px solid black;
     border-radius: 3px;
+    background-color: bisque ;
 }
+
+footer
+{
+    grid-column: 1/8;
+    grid-row: 9/10;
+    border: 2px solid black ;
+    border-radius: 5px;
+    margin-top: 3px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.socials
+{
+display: flex;
+gap: 12px;
+justify-content: center;
+}
+
