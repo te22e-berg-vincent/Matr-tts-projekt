@@ -69,6 +69,7 @@ padding-top: 10px;
     padding-top: 30px;
     text-align: center;
     background-color: bisque ;
+    margin-bottom: 10px;
 }
 
 .ingrediens_lista
@@ -118,6 +119,8 @@ grid-row: 7/8;
 border: 2px solid black;
 margin-bottom: 3px;
 background-color: bisque ;
+margin-bottom: 10px;
+border-radius: 3px;
 }
 
 .recept
@@ -139,6 +142,8 @@ footer
     margin-top: 3px;
     background-color: antiquewhite;
     text-align: center;
+    margin-top: 30px;
+    padding-bottom: 7px;
 }
 
 .socials
